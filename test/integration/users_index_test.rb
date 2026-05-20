@@ -16,7 +16,7 @@ class UsersIndexAdmin < UsersIndex
 end
 
 class UsersIndexAdminTest < UsersIndexAdmin
-  test 'shoule render the index page' do
+  test 'should render the index page' do
     assert_template 'users/index'
   end
 

@@ -37,7 +37,7 @@ class AccountActivationTest < UsersSignup
     post users_path, params: { user: { name: 'Example User',
                                        email: 'user@example.com',
                                        password: 'password',
-                                       password_vonfirmation: 'password' } }
+                                       password_confirmation: 'password' } }
     @user = assigns(:user)
   end
 
